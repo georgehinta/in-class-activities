@@ -1,0 +1,13 @@
+#include <unistd.h>
+#include <stdio.h>
+#include <stdbool.h>
+
+int main () {
+  double time = 2;
+  while(true)
+  {
+    printf("Sleeping for %f seconds...\n", time);
+    sleep(time);
+  }
+}
+

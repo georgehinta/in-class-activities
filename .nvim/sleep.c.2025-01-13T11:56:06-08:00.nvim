@@ -1,0 +1,11 @@
+#include <unistd.h>
+#include <stdio.h>
+
+int main () {
+  double time = 0.5;
+  while(1)
+  {
+    printf("Sleeping for %f seconds...\n", time);
+    sleep(time);
+  }
+}

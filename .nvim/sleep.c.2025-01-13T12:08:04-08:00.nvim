@@ -1,0 +1,21 @@
+#include <stdbool.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+
+int main() {
+  double time = 0.5;
+
+  printf("Hello World\n");
+
+  char* message = "Hello world!\n";
+
+  for (int i = 0; i < strlen(message); i++){
+
+    //while (true) {
+    //.printf("Sleeping for %f seconds...\n", time);
+    printf("%c\n", message[i];
+    fflush(stdout);
+    sleep(time);
+  }
+}
